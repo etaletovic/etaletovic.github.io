@@ -1,2 +1,2 @@
-Zdravo svijete!
-Hello World!
+#Zdravo svijete!
+##Hello World!
