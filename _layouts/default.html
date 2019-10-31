@@ -38,8 +38,9 @@
         </ul>
         {% endif %}
         <!--- Display posts -->
+        <h2>Recent posts</h2>
         <ul class="posts">
-          {% for post in site.posts %}
+          {% for post in site.posts limit:5 %}
           <li>
             <a href="{{ post.url }}">{{ post.title }}</a>
           </li>
