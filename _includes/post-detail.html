@@ -1,6 +1,7 @@
 {%- assign post-date = page.date -%}
 {%- assign post-title = page.title -%}
 {%- assign post-author = page.author -%}
+{%- assign post-tags = page.tags -%}
 
 {%- if custom-date -%}
   {%- assign post-date = custom-date -%}
@@ -14,6 +15,10 @@
   {%- assign post-author = custom-author -%}
 {%- endif -%}
 
+{%- if post-tags -%}
+  {%- assign post-tags = page.tags -%}
+{%- endif -%}
+
 <small>{{ post-date | date: "%-d %B %Y" }}</small>
 <h1>{{ post-title }}</h1>
 
@@ -21,6 +26,6 @@
 
 {{content}}
 
-{%- if page.tags -%}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{%- if post-tags -%}
+  <small>tags: <em>{{ post-tags | join: "</em> - <em>" }}</em></small>
 {%- endif -%}
