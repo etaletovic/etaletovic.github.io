@@ -1,1 +1,3 @@
-{% {{ site.posts[0] }} %}
+{% assign post = site.posts.first %}
+
+# {% {{post.title}} %}
