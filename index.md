@@ -4,6 +4,8 @@ layout: post
 
   {% assign post = site.posts.first %}
   {% assign content = post.content %}
-  {% assign title = post.title %}
-  
+  {% assign custom-title = post.title %}
+  {% assign custom-date = post.date %}
+  {% assign custom-author = post.author %}
+
   {% include post-detail.html %}
