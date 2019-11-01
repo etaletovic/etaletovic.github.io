@@ -2,6 +2,7 @@
 {% assign post = site.posts.first %}
 
 
+{% {{ post.title }} %}
 
 
-Test2
+Test3
