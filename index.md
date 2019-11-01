@@ -1,6 +1,7 @@
+---
+layout: default
+---
 
-{%- assign latest_post = site.posts[0] -%}
-
-Latest post: {{ latest_post.title }}
-
-Test5
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include post_detail.html %}
