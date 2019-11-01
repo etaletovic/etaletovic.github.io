@@ -15,8 +15,8 @@
   {%- assign post-author = custom-author -%}
 {%- endif -%}
 
-{%- if post-tags -%}
-  {%- assign post-tags = page.tags -%}
+{%- if custom-tags -%}
+  {%- assign post-tags = custom-tags -%}
 {%- endif -%}
 
 <small>{{ post-date | date: "%-d %B %Y" }}</small>
