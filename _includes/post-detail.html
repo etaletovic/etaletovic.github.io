@@ -1,7 +1,23 @@
-<small>{{ custom-date | page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ custom-title | page.title }}</h1>
+{% assign post-date = page.date  %}
+{% assign post-title = page.title  %}
+{% assign post-author = page.author  %}
 
-<p class="view">by {{ custom-author | page.author | default: site.author }}</p>
+{% if custom-date %}
+  {% assign post-date = custom-date %}
+{% endif %}
+
+{% if custom-title %}
+  {% assign post-title = custom-title %}
+{% endif %}
+
+{% if custom-author %}
+  {% assign post-author = custom-author %}
+{% endif %}
+
+<small>{{ post-date | date: "%-d %B %Y" }}</small>
+<h1>{{ post-title }}</h1>
+
+<p class="view">by {{ post-author | default: site.author }}</p>
 
 {{content}}
 
