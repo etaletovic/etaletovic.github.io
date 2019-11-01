@@ -1,6 +1,6 @@
 
 {%- assign latest_post = site.posts[0] -%}
 
-Latest post: <a href="{{ latest_post.url }}">{{ latest_post.title }}</a>
+Latest post: {{ latest_post.title }}
 
-Test4
+Test5
