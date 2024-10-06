@@ -7,12 +7,3 @@ layout: home
 <h1>{{ recent_post.title }}</h1>
 <p>{{ recent_post.date | date_to_string }} - {{ recent_post.author }}</p>
 {{ recent_post.content }}
-
-<h2>Other posts</h2>
-<ul>
-  {% for post in site.posts %}
-  <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
