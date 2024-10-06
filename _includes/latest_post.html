@@ -1,0 +1,4 @@
+{%- assign post = site.posts.first -%}
+<h1>{{ post.title }}</h1>
+<p>{{ post.date | date_to_string }} - {{ post.author }}</p>
+{{ post.content }}

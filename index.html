@@ -2,8 +2,6 @@
 layout: home
 ---
 
-{%- assign recent_post = site.posts.first -%}
+{% include latest_post.html %}
 
-<h1>{{ recent_post.title }}</h1>
-<p>{{ recent_post.date | date_to_string }} - {{ recent_post.author }}</p>
-{{ recent_post.content }}
+{% include recent_posts.html %}
