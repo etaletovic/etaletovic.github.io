@@ -4,8 +4,6 @@ title: When Polished Ships Faster
 author: Emir Taletovic
 ---
 
-# When Polished Ships Faster
-
 During a recent project I was tasked with building out some UIs, and the advice I received was to "keep it minimal and barebones, it doesn't need to be perfect" under the premise that this would get the job done faster. The assumption was that beautiful, fully featured UIs are slow to develop, while rough versions can be thrown together quickly. At first glance, that sounds practical: don't overthink the polish, just ship.
 
 But from experience I knew this logic can be misleading. Cutting corners often adds more time, not less. Rather than debating the point, I decided to show it in practice. By leaning on ready-made components, I delivered something faster, cleaner, and more consistent than a hand-rolled version would have been. What looked like polish was actually speed, because the libraries had already solved the hard problems. That demonstration opened the door to a bigger conversation with the team: consistency and standardization are what actually drive speed, not one-off shortcuts.
