@@ -20,15 +20,13 @@ And underlying all of this is a simple truth: consistency matters more than ad h
 
 ## Why Consistency Wins
 
-I often say it is better to write consistently wrong code than inconsistently correct code. When code follows a predictable pattern, even if the pattern is not perfect, it is easier to read, refactor, and improve in one sweep. Consistency turns individual mistakes into systematic ones, which means they can be corrected systematically.
+I often say that consistently writing suboptimal code is better than sporadically writing optimal code. Why? When your code follows a predictable pattern, even if it is not perfect, it is easier to read, refactor, and improve in one sweep. Consistency turns individual mistakes into systematic ones, which means they can be corrected systematically.
 
-Take error handling as an example. If every business logic class handles errors in its own way, then making a change requires reading through each implementation just to understand it. But if every class follows the same approach, updates become simple.
+Take error handling as an example. If every other piece of business logic handles errors in its own way, then making a change requires reading through each implementation just to understand it. But if every class follows the same approach, updates become simple.
 
 The same holds true in UI development. If buttons, forms, and modals all follow consistent patterns, then adding a new feature or adjusting behavior is straightforward. But when each component is built differently, even small changes require unnecessary detective work.
 
-Our brains naturally latch onto patterns, so once you've seen the pattern a few times, you can move through the code quickly without re-learning it every time. A familiar structure lets the team move faster because the brain is free to recognize and apply patterns rather than constantly decode exceptions.
-
-That is also why libraries like [**shadcn/ui**](https://ui.shadcn.com/) and [**Tailwind CSS** ](https://tailwindcss.com/)are so valuable. They enforce consistency by default, which not only improves the look and feel but also speeds up the way developers work. You can trust that every component will behave predictably, which means less time fighting with exceptions and more time focusing on actual business problems.
+Our brains naturally latch onto patterns, so once you've seen the pattern a few times, you can move through the code quickly without re-learning it every time. A familiar structure lets the team move faster because the brain is free to recognize and apply patterns rather than constantly decode exceptions. This is precisely why I love libraries such as [**shadcn/ui**](https://ui.shadcn.com/) and [**Tailwind CSS**](https://tailwindcss.com/). They enforce consistency by default, which not only improves the look and feel but also speeds up the way developers work. You can trust that every component will behave predictably, which means less time fighting with exceptions and more time focusing on actual business problems.
 
 ## Final Words
 
