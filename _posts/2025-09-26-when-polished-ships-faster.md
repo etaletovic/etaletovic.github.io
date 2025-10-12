@@ -1,6 +1,6 @@
 ---
 layout: post
-title: When Polished Ships Faster  
+title: "When Polished Ships Faster"
 author: Emir Taletovic
 ---
 

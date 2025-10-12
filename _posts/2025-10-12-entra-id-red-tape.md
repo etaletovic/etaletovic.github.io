@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cutting Through the Red Tape: Entra, Managed Identities, and RBAC in the Real World
+title: "Cutting Through the Red Tape: Entra, Managed Identities, and RBAC in the Real World"
 author: Emir Taletovic
 ---
 
