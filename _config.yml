@@ -1,4 +1,4 @@
-remote_theme: artemsheludko/flexible-jekyll
+remote_theme: poole/hyde
 plugins:
   - jekyll-remote-theme
 title: Parking Lot
